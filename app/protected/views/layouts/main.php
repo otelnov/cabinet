@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,cyrillic'
           rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/style.css"/>
+    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script>
         function getRandomInt(min, max) {
