@@ -1,56 +1,60 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!doctype html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
+    <meta charset="utf-8"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,cyrillic'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/style.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script>
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
 
-	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
-	<![endif]-->
+        $(function() {
+            var $timeline = $('#timeline');
 
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+            for (var i = 0; i <= 24; i++) {
+                $timeline.append('<div class="period"><span class="hour">' + i + '</span><span class="min">00</span></div>');
+            }
+        })
+    </script>
 </head>
-
 <body>
+<div id="page">
+    <header><h1>Кабинет</h1>
+        <nav>
+            <ul>
+                <li class="business"><a href="#">Бизнес</a></li>
+                <li class="work active"><a href="#">Работа</a></li>
+                <li class="self-education"><a href="#">Развитие</a></li>
+                <li class="family"><a href="#">Семья</a></li>
+                <li class="entertainment"><a href="#">Развлечения</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <nav>
+            <?php $this->widget('zii.widgets.CMenu',array(
+                'items'=>array(
+                    array('label'=>'Воспоминания', 'url'=>array('/dreams/index')),
+                    array('label'=>'Архив', 'url'=>array('/archive/index')),
+                    array('label'=>'Дела', 'url'=>array('/projects/index')),
+                    array('label'=>'Финансы', 'url'=>array('/finance/index')),
+                    array('label'=>'Вещи', 'url'=>array('/things/index')),
+                    array('label'=>'Мечты', 'url'=>array('/goals/index'))
+                )
+            )); ?>
+        </nav>
 
-<div class="container" id="page">
+    </aside>
+    <section id="content">
+        <?php echo $content; ?>
+    </section>
+</div>
 
-	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-	</div><!-- header -->
+<footer>
 
-	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
-	</div><!-- mainmenu -->
-	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
-
-	<?php echo $content; ?>
-
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
-	</div><!-- footer -->
-
-</div><!-- page -->
-
+</footer>
 </body>
 </html>
