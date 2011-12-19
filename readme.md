@@ -1,11 +1,14 @@
 Cabinet
 =======
 
-* Life Management Application - личная система управления
+* Life Management Application - Р»РёС‡РЅР°СЏ СЃРёСЃС‚РµРјР° СѓРїСЂР°РІР»РµРЅРёСЏ
 
 Apache Virtual Hosts
 --------------------
-  <VirtualHost *>
-      ServerName cabinet.dev:80
-      DocumentRoot "D:/projects/cabinet/app/"
-  </VirtualHost>
+
+```
+<VirtualHost *>
+    ServerName cabinet.dev:80
+    DocumentRoot "D:/projects/cabinet/app/"
+</VirtualHost>
+```
