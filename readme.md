@@ -1,7 +1,8 @@
 Cabinet
 =======
+**Life Management Application - личная система управления**
 
-* Life Management Application - личная система управления
+![](http://i.minus.com/jfvoBrOcWmbDr.png)
 
 Apache Virtual Hosts
 --------------------
