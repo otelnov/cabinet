@@ -22,15 +22,9 @@
 
     <h3>План</h3>
     <ul>
-        <li>ie 7-9 - removed border, layout problem fixed</li>
-        <li>addtocart -> widget : weiter color = blue, bg = black</li>
-        <li>table th : bg = black</li>
-        <li>checkout -> grey buttons : bg = black</li>
-        <li>address -> grey button : bg = black</li>
-        <li>register -> password confirmation: less margin</li>
-        <li>favicon : color = blue</li>
-        <li>cms pages -> before footer bg : white</li>
-        <li>checkout : remove white block</li>
+		<?php foreach($todos as $todo): ?>
+        <li><?php echo $todo; ?></li>
+        <?php endforeach; ?>
     </ul>
 </div>
 <div id="timeline">
