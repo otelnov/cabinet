@@ -37,9 +37,9 @@
         <nav>
             <?php $this->widget('zii.widgets.CMenu',array(
                 'items'=>array(
-                    array('label'=>'Воспоминания', 'url'=>array('/dreams/index')),
+                    array('label'=>'Воспоминания', 'url'=>array('/history/index')),
                     array('label'=>'Архив', 'url'=>array('/archive/index')),
-                    array('label'=>'Дела', 'url'=>array('/projects/index')),
+                    array('label'=>'Дела', 'url'=>array('/plan/index')),
                     array('label'=>'Финансы', 'url'=>array('/finance/index')),
                     array('label'=>'Вещи', 'url'=>array('/things/index')),
                     array('label'=>'Мечты', 'url'=>array('/goals/index'))
