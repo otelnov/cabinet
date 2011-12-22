@@ -1,7 +1,7 @@
 @import url(reset.css);
 
 * {
-	font-family: 'Open Sans', sans-serif !important;
+	font-family: 'Open Sans', Arial !important;
 }
 
 html {
@@ -176,6 +176,30 @@ header nav .active a {
     border: solid 1px #eee;
     border-radius: 5px;
     font-size: 11px;
+}
+
+#pockets {
+    float: right;
+    width: 200px;
+}
+
+.pocket {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #fff;
+    cursor: pointer;
+}
+
+.pocket:hover {
+    border: solid 1px #eee;
+}
+
+.pocket h4 {
+
+}
+
+.pocket blockquote {
+    font-size: 12px;
 }
 
 #team {
