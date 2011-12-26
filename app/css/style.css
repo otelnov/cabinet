@@ -93,6 +93,7 @@ header nav .active a {
     width: 300px;
 }
 
+.budget,
 .plan {
     float: left;
     width: 400px;
@@ -161,6 +162,7 @@ header nav .active a {
     float:right;
 }
 
+.budget h3,
 .plan h3 {
     color: #333;
 	font-weight: normal;
@@ -176,6 +178,31 @@ header nav .active a {
     border: solid 1px #eee;
     border-radius: 5px;
     font-size: 11px;
+}
+
+.budget li {
+    display: block;
+    margin: 5px;
+    padding: 5px 5px 5px 5px;
+    border: solid 1px #eee;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.budget li span {
+    width: 200px;
+    display: inline-block;
+}
+
+.budget li em {
+    width: 40px;
+    display: inline-block;
+    border-right: solid 1px #eee;
+}
+
+.budget li strong {
+    width: 40px;
+    display: inline-block;
 }
 
 #pockets {
