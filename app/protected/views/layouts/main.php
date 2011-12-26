@@ -39,8 +39,8 @@
                 'items'=>array(
                     array('label'=>'Мечты', 'url'=>array('/goals/index')),
                     array('label'=>'Проекты', 'url'=>array('/projects/index')),
-                    array('label'=>'Финансы', 'url'=>array('/finance/index')),
                     array('label'=>'Дела', 'url'=>array('/plan/index')),
+                    array('label'=>'Финансы', 'url'=>array('/finance/index')),
                     array('label'=>'Вещи', 'url'=>array('/things/index')),
                     array('label'=>'Архив', 'url'=>array('/archive/index')),
                     array('label'=>'Воспоминания', 'url'=>array('/history/index')),

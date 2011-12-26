@@ -1,14 +1,6 @@
 <div class="plan" id="work-plan">
-    <div id="history">
-        <h3><a href="#">Сегодня</a></h3>
-
-        <h3><a href="#">Завтра</a></h3>
-
-        <h3><a href="#">Неделя</a></h3>
-
-        <h3><a href="#">Месяц</a></h3>
-
-        <h3><a href="#">Год</a></h3>
+    <div id="todo-create">
+        <input placeholder="Описание нового дела">
     </div>
 
     <h3>Выполняется</h3>
@@ -26,6 +18,22 @@
         <li><?php echo $todo; ?></li>
         <?php endforeach; ?>
     </ul>
+
+
+    <div id="suspend">
+        <div id="history">
+            <h3>Отложить</h3>
+            <a href="#">завтра</a>
+            <a href="#">неделя</a>
+            <a href="#">месяц</a>
+            <a href="#">потом</a>
+        </div>
+        <ul>
+            <li>check messages</li>
+            <li>add 2 crosseling products</li>
+            <li>sorting by confirmed</li>
+        </ul>
+    </div>
 </div>
 <div id="timeline">
     <div id="now">
@@ -48,15 +56,6 @@
         <li>logout move to flavs</li>
         <li>remove required telephone field shipping address</li>
     </ul>
-    <h3>Отложить</h3>
-    <ul>
-        <li>check messages</li>
-        <li>add 2 crosseling products</li>
-        <li>sorting by confirmed</li>
-    </ul>
-    <div id="todo-create">
-        <input placeholder="Описание нового дела">
-    </div>
 </div>
 <div id="team">
     <h3>Входящие</h3>
