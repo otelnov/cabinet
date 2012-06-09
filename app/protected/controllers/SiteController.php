@@ -2,6 +2,7 @@
 
 class SiteController extends Controller
 {
+	public $layout='application.views.layouts.mantra';
 	/**
 	 * Declares class-based actions.
 	 */
@@ -22,9 +23,12 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+		$this->layout = '/layouts/mantra';
+		if(user()->isGuest) {
+			$this->render('index');
+		} else {
+			$this->redirect('/plan/index');
+		}
 	}
 
 	/**
