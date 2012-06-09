@@ -5833,3 +5833,62 @@ Stack trace:
 #1 E:\projects\cabinet\app\yii\base\CApplication.php(158): CWebApplication->processRequest()
 #2 E:\projects\cabinet\app\index.php(9): CApplication->run()
 #3 {main} REQUEST_URI=/favicon.ico
+2012/06/09 17:30:43 [error] [php] trim() expects parameter 1 to be string, array given (E:\projects\cabinet\app\yii\web\CUrlManager.php:281)
+Stack trace:
+#0 E:\projects\cabinet\app\yii\base\CApplication.php(522): LangUrlManager->createUrl()
+#1 E:\projects\cabinet\app\protected\components\global.php(47): CWebApplication->createUrl()
+#2 E:\projects\cabinet\app\protected\components\views\loginWidget.php(4): url()
+#3 E:\projects\cabinet\app\yii\web\CBaseController.php(123): require()
+#4 E:\projects\cabinet\app\yii\web\CBaseController.php(88): LoginWidget->renderInternal()
+#5 E:\projects\cabinet\app\yii\web\widgets\CWidget.php(242): LoginWidget->renderFile()
+#6 E:\projects\cabinet\app\protected\components\LoginWidget.php(12): LoginWidget->render()
+#7 E:\projects\cabinet\app\yii\web\CBaseController.php(166): LoginWidget->run()
+#8 E:\projects\cabinet\app\protected\views\layouts\mantra.php(49): SiteController->widget()
+#9 E:\projects\cabinet\app\yii\web\CBaseController.php(119): require()
+#10 E:\projects\cabinet\app\yii\web\CBaseController.php(88): SiteController->renderInternal()
+#11 E:\projects\cabinet\app\yii\web\CController.php(781): SiteController->renderFile()
+#12 E:\projects\cabinet\app\protected\controllers\SiteController.php(28): SiteController->render()
+#13 E:\projects\cabinet\app\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#14 E:\projects\cabinet\app\yii\web\CController.php(300): CInlineAction->runWithParams()
+#15 E:\projects\cabinet\app\yii\web\CController.php(278): SiteController->runAction()
+#16 E:\projects\cabinet\app\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#17 E:\projects\cabinet\app\yii\web\CWebApplication.php(277): SiteController->run()
+#18 E:\projects\cabinet\app\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#19 E:\projects\cabinet\app\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#20 E:\projects\cabinet\app\index.php(9): CWebApplication->run()
+REQUEST_URI=/
+in E:\projects\cabinet\app\protected\components\LangUrlManager.php (93)
+in E:\projects\cabinet\app\protected\components\global.php (47)
+in E:\projects\cabinet\app\protected\components\views\loginWidget.php (4)
+2012/06/09 17:30:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\projects\cabinet\app\yii\web\CWebApplication.php:281
+Stack trace:
+#0 E:\projects\cabinet\app\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 E:\projects\cabinet\app\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\projects\cabinet\app\index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/06/09 17:32:26 [warning] [application] Не удалось присвоить небезопасный атрибут "access_token" класса "UloginModel".
+in E:\projects\cabinet\app\protected\models\UloginModel.php (36)
+in E:\projects\cabinet\app\protected\controllers\UloginController.php (10)
+in E:\projects\cabinet\app\index.php (9)
+2012/06/09 17:32:26 [warning] [application] Не удалось присвоить небезопасный атрибут "uid" класса "UloginModel".
+in E:\projects\cabinet\app\protected\models\UloginModel.php (36)
+in E:\projects\cabinet\app\protected\controllers\UloginController.php (10)
+in E:\projects\cabinet\app\index.php (9)
+2012/06/09 17:32:26 [warning] [application] Не удалось присвоить небезопасный атрибут "first_name" класса "UloginModel".
+in E:\projects\cabinet\app\protected\models\UloginModel.php (36)
+in E:\projects\cabinet\app\protected\controllers\UloginController.php (10)
+in E:\projects\cabinet\app\index.php (9)
+2012/06/09 17:32:26 [warning] [application] Не удалось присвоить небезопасный атрибут "last_name" класса "UloginModel".
+in E:\projects\cabinet\app\protected\models\UloginModel.php (36)
+in E:\projects\cabinet\app\protected\controllers\UloginController.php (10)
+in E:\projects\cabinet\app\index.php (9)
+2012/06/09 17:32:26 [warning] [application] Не удалось присвоить небезопасный атрибут "manual" класса "UloginModel".
+in E:\projects\cabinet\app\protected\models\UloginModel.php (36)
+in E:\projects\cabinet\app\protected\controllers\UloginController.php (10)
+in E:\projects\cabinet\app\index.php (9)
+2012/06/09 17:32:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\projects\cabinet\app\yii\web\CWebApplication.php:281
+Stack trace:
+#0 E:\projects\cabinet\app\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 E:\projects\cabinet\app\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\projects\cabinet\app\index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico

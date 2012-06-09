@@ -1,7 +1,7 @@
 <div id="header-login">
 	<?php  $this->widget('application.components.UloginWidget', array(
 	    'params'=>array(
-	        'redirect'=>'http://'.$_SERVER['HTTP_HOST'].'/ulogin/login' 
+	        'redirect'=>'http://'.$_SERVER['HTTP_HOST'].'/index.php/ulogin/login' 
 	    )
 	)); ?>
 	<div class="form-search">
