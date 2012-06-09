@@ -27,7 +27,7 @@ class SiteController extends Controller
 		if(user()->isGuest) {
 			$this->render('index');
 		} else {
-			$this->redirect('/plan/index');
+			$this->redirect(array('/plan/index'));
 		}
 	}
 
