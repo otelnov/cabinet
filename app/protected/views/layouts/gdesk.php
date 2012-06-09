@@ -33,7 +33,7 @@
             </ul>
         </nav>
         <nav role="profile">
-			<?= $this->user->email ?> <?=l(t('Logout'), '/user/logout')?>        	
+			<?= $this->user->email ?> <?=l(t('Logout'), array('/user/logout'))?>        	
         </nav>
     </header>
     <aside>
