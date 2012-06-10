@@ -5918,3 +5918,9 @@ Stack trace:
 #1 E:\projects\cabinet\app\yii\base\CApplication.php(158): CWebApplication->processRequest()
 #2 E:\projects\cabinet\app\index.php(9): CApplication->run()
 #3 {main} REQUEST_URI=/favicon.ico
+2012/06/10 02:55:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\projects\cabinet\app\yii\web\CWebApplication.php:281
+Stack trace:
+#0 E:\projects\cabinet\app\yii\web\CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 E:\projects\cabinet\app\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\projects\cabinet\app\index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico

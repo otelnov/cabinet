@@ -6,7 +6,7 @@
 	)); ?>
 	<div class="form-search">
 		<?php $form=$this->beginWidget('CActiveForm', array(
-				'action' => '/user/login',
+				'action' => url('/user/login'),
 				'id'=>'login-form',
 				'enableAjaxValidation'=>true,
 				'enableClientValidation'=>true,
