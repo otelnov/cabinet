@@ -40,7 +40,7 @@
         <nav>
             <?php $this->widget('zii.widgets.CMenu',array(
                 'items'=>array(
-                    array('label'=>'Мечты', 'url'=>array('/goals/index')),
+                    array('label'=>'Страницы', 'url'=>array('/pages')),
                     array('label'=>'Проекты', 'url'=>array('/projects/index')),
                     array('label'=>'Дела', 'url'=>array('/plan/index')),
                     array('label'=>'Финансы', 'url'=>array('/finance/index')),

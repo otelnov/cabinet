@@ -1,0 +1,402 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("reset.css");
+body
+	{
+		font-family: 'Open Sans', sans-serif;
+		color:#333333;
+		}
+#wrapper
+	{
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	position:relative;
+		}
+.top
+	{
+	height:27px;
+	width:100%;
+	background-color:#fff;
+	border-bottom:1px solid #edeff2;
+	padding:4px 3px 4px 13px;
+	margin-bottom:2px;
+		}
+		
+.logo
+	{
+	float:left;
+	overflow:hidden;
+	margin:4px 72px 0 0;
+		}
+.logo a
+	{
+	width:74px;
+	height:18px;
+	display:block;
+	cursor:pointer;
+	font-size:18px;	
+	text-decoration:none;
+	color:#333333;
+		}
+/*top nav----------------------------------------------------------------------------------------------------------------------*/		
+.top-nav
+	{
+	float:left;
+	margin:5px 0px 0 0;
+	}
+	
+	
+.top-nav ul li
+	{
+	display: inline;
+	margin-right:18px;
+	}
+.top-nav ul li:first-child
+	{
+	margin-right:20px;	
+		}
+.top-nav ul li a
+	{
+	font-size:16px;	
+	text-decoration:none;
+	color:#333333;
+	}
+/*info--------------------------------------------------------------------------------------------------------------------------*/
+
+.right_nav {
+	float:right;
+}
+
+/*--------------------rigth_nav------------------------------*/
+
+.arrow {
+	float: right;
+	background:url(../img/bg-arrow.png);
+}
+.setting {
+	float: right;
+	overflow:hidden;
+	cursor: pointer;
+	padding: 0 20px 0 0;
+}
+.drop_box {
+	float: right;
+	width: 220px;
+}
+.drop_box li {
+	float: left;
+	cursor: pointer;
+}
+.drop_box li a {
+	text-decoration: none;
+	color:#333;
+	font-size:12px;
+	margin: 9px 11px 0 6px;
+	display: block;
+	
+	float: right;
+}
+.drop-ul {
+	position:absolute;
+}
+.drop_box img {
+	float: left;
+}
+	
+.drop_box ul li .drop-ul {
+	display:none;
+	padding-top: 20px;
+}
+	
+.drop_box ul:hover .drop-ul {
+	margin:18px 0 0 6px;
+	color:#333;
+	font-size:12px;
+	display:block;
+}
+
+
+.search_menu {
+	float: right;
+	width: 313px;
+}
+
+.search_menu a {
+	float:left;
+	padding: 5px 0 0 6px;
+}
+
+.search {
+	position: relative;
+	margin: 0 auto;
+	width: 256px;
+}
+.search input {
+	background: #FFFCD8;
+	height: 21px;
+	padding: 0 12px 0 4px;
+	width: 249px;
+	position:relative;
+	z-index:20;
+}
+.search input:focus {
+	outline: none;
+	border-color: #66b1ee;
+}
+.search input:focus + .results {
+  display: block;
+}
+.search .results {
+  display: none;
+  position: absolute;
+  top: -5px;
+  left: -6px;
+  z-index: 10;  
+  background-color: #fff;
+  width:269px;
+  padding:0 10px 0 0;
+  border: 1px solid #e2e2e2;
+
+  min-height: 300px;
+}
+.search .results li {
+  display: block;
+}
+.search .results li:first-child {
+  margin-top: -1px;
+  padding-top:30px;
+}
+
+.search .results li:first-child:before {
+  border-bottom: 5px solid #c4c7d7;
+  top: -11px;
+}
+.search .results li:first-child:after {
+  border-bottom: 5px solid #fdfdfd;
+  top: -10px;
+}
+.search .results li:first-child:hover:before, .search .results li:first-child:hover:after {
+  display: none;
+}
+.search .results li:last-child {
+  margin-bottom: -1px;
+}
+.search .results a {
+  display: block;
+  position: relative;
+  margin: 0 -1px;
+  padding: 6px 40px 6px 10px;
+  color: #808394;
+  font-weight: 500;
+  text-shadow: 0 1px #fff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.search .results a span {
+  font-weight: 200;
+}
+.search .results a:before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -9px;
+
+}
+.search .results a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+:-moz-placeholder {
+  color: #a7aabc;
+  font-weight: 200;
+	font-size: 12px;
+}
+
+::-webkit-input-placeholder {
+  color: #a7aabc;
+  font-weight: 200;
+	font-size: 12px;
+}
+
+#pro {
+    background: url(../cabinet-design.jpg) no-repeat scroll 0 0 transparent;
+    display: none;
+    height: 974px;
+    left: 50%;
+    margin: 0 0 0 -675px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 1500px;
+    z-index: 10;
+}
+
+
+
+/*left sitebar------------------------------------------------------------------------------------------------------------*/
+.left-sitebar
+	{
+	width:152px;
+	float:left;
+	background-color:#eeeeee;
+	height:100%;
+	min-height:610px;
+	overflow:hidden;
+	border-right:1px solid #dbdbdb;
+	position:relative;	
+		}
+
+		
+#move-line {
+    background: none repeat scroll 0 0 #379BDA;
+    width: 2px;
+    left: 150px;
+    position: absolute;
+    top:0;
+    height: 59px;
+	padding:0;
+}
+
+.sitebar ul li:hover, .active
+	{
+	background-color:#fefefe;	
+		}	
+
+.sitebar ul li a
+	{
+	font-size:18px;	
+	text-decoration:none;
+	color:#333333;
+	padding:21px 0 19px 22px;
+	display:block;
+	}
+	
+#example-one {
+    margin: 0 auto;
+    position: relative;
+}
+
+/*content------------------------------------------------------------------------------------------------------------------*/
+.box1
+	{
+	width:659px;
+	height:100%;
+	min-height:610px;
+	float:left;
+	
+		}
+.content-holder
+	{
+	padding:10px 0 0 14px;
+	overflow:hidden;
+		}
+.content-holder img
+	{float:left;
+	margin-right:14px;
+	overflow:hidden;
+	width:222px;}
+	
+.content-holder h3
+	{
+	font-size:24px;
+	color:#000;	
+	font-weight:100;
+		}
+		
+.content-holder p
+	{
+	font-size:13px;
+	color:#000;
+		}
+		
+.content-holder h2
+	{
+	margin:56px 0 0 0px;
+	padding-left:254px;
+	color:#333333;
+	font:35px 'Open Sans';	
+		}
+		
+.post
+	{
+	margin:25px 0 0 20px;	
+		}
+		
+.post table
+	{
+	width:518px;
+	height:120px;
+	text-align:center;
+	font-size:12px;
+	color:#333333;	
+		}
+.post table span
+	{font-size:8px;}
+		
+.post table tr
+	{background-color:#f3f3f3;
+	height:34px;
+	}
+.post table td
+	{padding:12px 1px 0 2px;}
+.post table tr:first-child,.post table tr:last-child
+	{
+	background-color:#fff;
+	height:44px;	
+		}
+.color
+	{
+	background-color:#f6f6f6;
+	width:192px;	
+		}
+
+.color2 {background-color:#eeeeee;
+width:192px;}
+.box2
+	{
+	width:535px;
+	height:100%;
+	min-height:610px;
+	float:left;
+	overflow:hidden;
+	padding-top:30px;
+		}
+		
+.box2 h2
+	{
+	margin-bottom:44px;
+
+	font-size:26px;
+	color:#333333;
+	padding-left:7px;
+		}
+		
+.box2 ul 
+	{
+	font-weight:400;
+	font-size:32px;
+	padding-left:7px;
+		}
+		
+.box2 ul li
+	{padding:2px 0;}
+/*pro---------------------------------------------------------------------------------------------------------------------*/
+
+#pro {
+    background: url(../cabinet-design.jpg) no-repeat scroll 0 0 transparent;
+    display: none;
+    height: 974px;
+    left: 50%;
+    margin: 0 0 0 -675px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 1500px;
+    z-index: 10;
+}

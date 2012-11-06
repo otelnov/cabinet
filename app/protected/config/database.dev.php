@@ -2,7 +2,7 @@
     return array(
         'connectionString' => 'mysql:host=localhost;dbname=cabinet',
         'emulatePrepare' => true,
-        'username' => 'admin',
+        'username' => 'root',
         'password' => 'admin',
         'charset' => 'utf8',
         'tablePrefix' => '',

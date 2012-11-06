@@ -30,7 +30,8 @@ class SiteController extends Controller
 			$this->redirect(array('/plan/index'));
 		}
 	}
-
+	
+	
 	/**
 	 * This is the action to handle external exceptions.
 	 */

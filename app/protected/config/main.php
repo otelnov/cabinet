@@ -24,7 +24,17 @@ return array(
 			'tableUsers' => 'users',
 			'tableProfiles' => 'profiles',
 			'tableProfileFields' => 'profiles_fields',
-		)
+		),
+		'admin' => array(
+			//'layoutPath' => 'protected/modules/admin/views/layouts',
+			//'layout' => 'main'
+		),
+		'gii'=>array(
+			'class'=>'system.gii.GiiModule',
+			'password'=>'password',
+			// If removed, Gii defaults to localhost only. Edit carefully to taste.
+			'ipFilters'=>array('127.0.0.1','::1'),
+		),
     ),
 	// application components
 	'components'=>array(
@@ -42,7 +52,7 @@ return array(
 			'class'=>'application.components.LangUrlManager',
 			'languages'=>array('ru','en'),
 			'urlFormat'=>'path',
-			'showScriptName'=>true,
+			'showScriptName'=>false,
 			'rules'=>array(
 				'<lang:(ru|en)>' => '',
                 '<lang:(ru|en)>/<module:\\w+>/<controller:\\w+>/<action:\\w+>' => '<module>/<controller>/<action>',
