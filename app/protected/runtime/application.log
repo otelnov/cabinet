@@ -11034,3 +11034,381 @@ Stack trace:
 #1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
 #2 /var/www/cabinet/app/index.php(9): CApplication->run()
 #3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:14:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:14:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:14:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:26:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:26:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:30:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:35:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:35:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:35:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:35:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:35:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:37:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:38:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 17:39:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:31:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/css/flowers-left.png".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('themes/admin/cs...')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/themes/admin/css/flowers-left.png
+2012/11/06 23:31:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:31:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:31:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:31:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:31:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:31:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:32:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:35:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:35:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:35:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:35:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:37:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:38:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:38:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/06 23:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:09:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/css/flowers-left.png".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('themes/admin/cs...')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/themes/admin/css/flowers-left.png
+2012/11/07 00:09:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:10:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:16:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:16:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:16:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:17:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:17:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:18:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:18:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:21:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/css/flowers-left.png".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('themes/admin/cs...')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/themes/admin/css/flowers-left.png
+2012/11/07 00:21:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:21:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:21:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:21:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:23:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:23:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/css/Metro/loading.gif".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('themes/admin/cs...')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/themes/admin/css/Metro/loading.gif
+2012/11/07 00:23:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/css/Metro/sprite.png".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('themes/admin/cs...')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/themes/admin/css/Metro/sprite.png
+2012/11/07 00:23:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:23:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:24:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:24:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2012/11/07 00:26:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/cabinet/app/yii/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/cabinet/app/yii/web/CWebApplication.php(136): CWebApplication->runController('favicon.ico')
+#1 /var/www/cabinet/app/yii/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/cabinet/app/index.php(9): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico

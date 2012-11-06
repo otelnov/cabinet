@@ -127,15 +127,7 @@ class PagesController extends Controller
 	 */
 	public function actionIndex()
 	{
-		
-//		$model=new Pages('search');
-//		$model->unsetAttributes();  // clear any default values
-//		if(isset($_GET['Pages']))
-//			$model->attributes=$_GET['Pages'];
-//
-//		$this->render('admin',array(
-//			'model'=>$model,
-//		));
+
 	
 		$model=Pages::model()->findAll();
 		$this->render('admin',array(
@@ -146,17 +138,17 @@ class PagesController extends Controller
 	/**
 	 * Manages all models.
 	 */
-	public function actionAdmin()
-	{
-		$model=new Pages('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Pages']))
-			$model->attributes=$_GET['Pages'];
-
-		$this->render('admin',array(
-			'model'=>$model,
-		));
-	}
+//	public function actionAdmin()
+//	{
+//		$model=new Pages('search');
+//		$model->unsetAttributes();  // clear any default values
+//		if(isset($_GET['Pages']))
+//			$model->attributes=$_GET['Pages'];
+//
+//		$this->render('admin',array(
+//			'model'=>$model,
+//		));
+//	}
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.

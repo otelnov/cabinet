@@ -5,7 +5,13 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,cyrillic'
           rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/themes/gdesk/style.css"/>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<link href="<?php echo Yii::app()->request->baseUrl; ?>/themes/admin/css/examples-offline.css" rel="stylesheet">
+    <link href="<?php echo Yii::app()->request->baseUrl; ?>/themes/admin/css/kendo.common.min.css" rel="stylesheet">
+    <link href="<?php echo Yii::app()->request->baseUrl; ?>/themes/admin/css/kendo.metro.min.css" rel="stylesheet">
+
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/themes/admin/js/kendo.web.min.js"></script>
+    <script src="<?php echo Yii::app()->request->baseUrl; ?>/themes/admin/js/console.js"></script>
     <script>
         function getRandomInt(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
